@@ -1,9 +1,20 @@
 body{
     width: 100%;
+    overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+::-webkit-scrollbar-thumb {
+    background: #ECBFBF;
+    border-radius: 16px;
+  }
 
 .global{
     width: 100%;
+    height: 100%;
     margin: auto;
 }
 
@@ -54,7 +65,7 @@ nav a:hover{
 }
 
 div.block{
-    width: 70%;
+    width: 78%;
     text-align: center;
 }
 
@@ -69,7 +80,7 @@ h3.slogan{
 a.button{
     padding: 8px;
     border-radius: 30px;
-    border: 4px solid #ECBFBF;
+    border: 4px dashed #ECBFBF;
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
@@ -103,6 +114,8 @@ div.cercle_2{
 /*SECTION-2*/
 
 div.nos_services{
+    position: absolute;
+    top: 100%;
     width: 100%;
 }
 
@@ -146,4 +159,36 @@ div.icon{
 img.size{
     width: 150px;
     height: 150px;
+}
+
+.cercle_1{
+    position: absolute;
+    top: -15%;
+    left: 70%;
+}
+
+.cercle_2{
+    position: absolute;
+    left: -5%;
+    top: 70%;
+}
+
+div.brunch_img{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    position: absolute;
+    top: 190%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #ECBFBF;
+    text-align: center;
 }
