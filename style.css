@@ -1,158 +1,149 @@
 body{
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-section.accueil{
     width: 100%;
-    height: 100%;
 }
 
-#logo{
-    display: flex;
-    width: 300px;
-    height: 300px;
-    margin-left: 64px;
-}
-
-#logo img{
-    width: 300px;
-    height: 300px;
-}
-
-#cercle{
-    box-sizing: border-box;
-    position: absolute;
-    width: 735px;
-    height: 735px;
-    left: 1317px;
-    top: -130px;
-    border-radius: 367px;
-    background: linear-gradient(40.93deg, #ECBFBF 30.21%, rgba(255, 255, 255, 0) 106.81%);
-}
-
-#cercle1{
-    box-sizing: border-box;
-    position: absolute;
-    width: 478px;
-    height: 478px;
-    left: -114px;
-    top: 600px;
-    border-radius: 239px;
-    background: linear-gradient(223.93deg, #ECBFBF 13.4%, rgba(255, 255, 255, 0) 124.76%);
-}
-
-#cercle2{
-    position: absolute;
-    width: 530px;
-    height: 530px;
-    left: 1256px;
-    top: 252px;
-    border-radius: 265px;
-}
-
-.rose{
-    color: #ECBFBF;
-}
-
-#bruncher{
-    position: absolute;
-    width: 548px;
-    height: 78px;
-    left: 530px;
-    top: 330px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 78px;
-}
-
-#cherie{
-    position: absolute;
-    width: 262px;
-    height: 74px;
-    left: 670px;
-    top: 418px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 78px;
-}
-
-#services{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 78px;
-}
-
-#button{
-    display: flex;
-    box-sizing: border-box;
-    position: absolute;
-    width: 221px;
-    height: 64px;
-    left: 685px;
-    top: 590px;
-
-    background: #ffffff;
-    border: 7px solid #ECBFBF;
-    border-radius: 40px;
-}
-
-.button{
-    left: 697px;
-    top: 701px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 29px;
-}
-
-.enfant{
+.global{
+    width: 100%;
     margin: auto;
 }
 
-#button:hover{
-    background: #ECBFBF;
-}
+/*HEADER*/
 
 header{
+    width: 100%;
     display: flex;
+    align-items: center;
+}
+
+img.logo{
+    width: 300px;
+    height: 300px;
 }
 
 nav{
-    display: flex;
-    width: 900px;
+    width: 50%;
 }
 
 nav ul{
-    width: 760px;
-    height: 29px;
-    padding: 0;
-    margin: auto;
     display: flex;
+    padding: 0;
+    justify-content: space-around;
     list-style-type: none;
-    justify-content: space-between;
 }
 
 nav a{
+    padding: 12px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    vertical-align: middle;
     text-decoration: none;
     color: #000000;
+}
+
+nav a:hover{
+    background: #ECBFBF;
+    border-radius: 30px;
+}
+
+/*SECTION-1*/
+
+.accueil{
+    width: 100%;
+}
+
+div.block{
+    width: 70%;
+    text-align: center;
+}
+
+h3.slogan{
+    margin-bottom: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+}
+
+a.button{
+    padding: 8px;
+    border-radius: 30px;
+    border: 4px solid #ECBFBF;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #000000;
+}
+
+a.button:hover{
+    background: #ECBFBF;
+}
+
+span.texte_rose{
+    color: #ECBFBF;
+}
+
+div.cercle_1{
+    background: linear-gradient(40.93deg, #ECBFBF 30.21%, rgba(255, 255, 255, 0) 106.81%);
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+}
+
+div.cercle_2{
+    background: linear-gradient(223.93deg, #ECBFBF 13.4%, rgba(255, 255, 255, 0) 124.76%);
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+/*SECTION-2*/
+
+div.nos_services{
+    width: 100%;
+}
+
+div.block_2{
+    width: 100%;
+    text-align: center;
+}
+
+h3.titre{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 150px;
+}
+
+div.icon{
+    display: table;
+    border-collapse: collapse;
+    width: 80%;
+    height: 100%;
+    table-layout: fixed;
+    margin: auto;
+}
+ 
+.ligne {
+    display: table-row;
+}
+ 
+.cell {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    display: table-cell;
+    padding: 40px;
+    vertical-align: middle;
+    font-size: 32px;
+    text-align: center;
+}
+
+img.size{
+    width: 150px;
+    height: 150px;
 }

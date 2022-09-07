@@ -1,43 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <title>Brunch - La Cuisine De Laura</title>
-</head>
-<body>
-    <header>
-        <div id="logo">
-            <img src="images/logo.png" alt="Logo La Cuisine de Laura">
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brunch - La Cuisine de Laura</title>
+        <link rel="icon" href="images/iconsite.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="global">
+            <header>
+                <img class="logo" src="images/logo.png" alt="Logo La Cuisine de Laura">
+
+                <nav>
+                    <ul>
+                        <li><a href="#">RESERVER</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="accueil">
+                <div class="block">
+                    <h3 class="slogan">Ça Va <span class="texte_rose">Bruncher,</span><br>Chérie <span class="texte_rose">!</span></h3>
+                    <a class="button" href="#">RESERVER</a>
+                </div>
+                <div class="cercle_1"></div>
+                <div class="cercle_2"></div>
+            </div>
+            
+            <div class="nos_services">
+                <div class="block_2">
+                    <h3 class="titre">Nos <span class="texte_rose">Services.</span></h3>
+                </div>
+
+                <div class="icon">
+                    <div class="ligne">
+                        <div class="cell" id="A1"><img class="size" src="images/cloche.png"></div>
+                        <div class="cell" id="A2"><img class="size" src="images/scooter.png"></div>
+                        <div class="cell" id="A3"><img class="size" src="images/barriere.png"></div>
+                        <div class="cell" id="A4"><img class="size" src="images/emporter.png"></div>
+                        <div class="cell" id="A5"><img class="size" src="images/anneaux-de-mariage.png"></div>
+                    </div>
+                 
+                    <div class="ligne">
+                        <div class="cell" id="B1">
+                            <strong id="pc">Buffet</strong>
+                        </div>
+                        <div class="cell" id="B2">
+                            <strong id="pc">Livraison</strong>
+                        </div>
+                        <div class="cell" id="B3">
+                            <strong id="pc">Événements privées</strong>
+                        </div>
+                        <div class="cell" id="B4">
+                            <strong id="pc">À emporter</strong>
+                        </div>
+                        <div class="cell" id="B5">
+                            <strong id="pc">Récéption de mariage</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">RESERVER</a></li>
-                <li><a href="#">MENU</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
+    </body>
 
-    <div>
-        <section class="accueil">
-            <div id="cercle"></div>
-            <div id="cercle1"></div>
-            <div id="cercle2">
-                <img src="images/brunch_img.png" alt="Photo Brunch">
-            </div>
-
-            <p id="bruncher">Ça Va <span class="rose">Bruncher,</span></p>
-            <p id="cherie">Chérie <span class="rose">!</span></p>
-            <div id="button">
-                <div class="enfant"><a class="button" href="#">RESERVER</a></div>
-            </div>
-        </section>
-    </div>
-
-</body>
 </html>
