@@ -1,0 +1,158 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+section.accueil{
+    width: 100%;
+    height: 100%;
+}
+
+#logo{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 64px;
+}
+
+#logo img{
+    width: 300px;
+    height: 300px;
+}
+
+#cercle{
+    box-sizing: border-box;
+    position: absolute;
+    width: 735px;
+    height: 735px;
+    left: 1317px;
+    top: -130px;
+    border-radius: 367px;
+    background: linear-gradient(40.93deg, #ECBFBF 30.21%, rgba(255, 255, 255, 0) 106.81%);
+}
+
+#cercle1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 478px;
+    height: 478px;
+    left: -114px;
+    top: 600px;
+    border-radius: 239px;
+    background: linear-gradient(223.93deg, #ECBFBF 13.4%, rgba(255, 255, 255, 0) 124.76%);
+}
+
+#cercle2{
+    position: absolute;
+    width: 530px;
+    height: 530px;
+    left: 1256px;
+    top: 252px;
+    border-radius: 265px;
+}
+
+.rose{
+    color: #ECBFBF;
+}
+
+#bruncher{
+    position: absolute;
+    width: 548px;
+    height: 78px;
+    left: 530px;
+    top: 330px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+#cherie{
+    position: absolute;
+    width: 262px;
+    height: 74px;
+    left: 670px;
+    top: 418px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+#services{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+}
+
+#button{
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    width: 221px;
+    height: 64px;
+    left: 685px;
+    top: 590px;
+
+    background: #ffffff;
+    border: 7px solid #ECBFBF;
+    border-radius: 40px;
+}
+
+.button{
+    left: 697px;
+    top: 701px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.enfant{
+    margin: auto;
+}
+
+#button:hover{
+    background: #ECBFBF;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    width: 900px;
+}
+
+nav ul{
+    width: 760px;
+    height: 29px;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
